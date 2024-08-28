@@ -1,0 +1,27 @@
+﻿<Window x:Class="POO_practica01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:POO_practica01"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="366" Width="559">
+    <Grid Margin="0,0,10,-6">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="793*"/>
+            <ColumnDefinition Width="7*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="TextBoxValor1" HorizontalAlignment="Left" Margin="139,115,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextBoxValor2" HorizontalAlignment="Left" Margin="139,161,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TxtBoxResult" HorizontalAlignment="Left" Margin="139,205,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Label Content="valor 1" HorizontalAlignment="Left" Margin="65,111,0,0" VerticalAlignment="Top"/>
+        <Label Content="valor 2" HorizontalAlignment="Left" Margin="65,157,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.184,-0.476"/>
+        <Label Content="Resultado" HorizontalAlignment="Left" Margin="65,201,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="BtnSuma" Content="SUMA" HorizontalAlignment="Left" Margin="69,261,0,0" VerticalAlignment="Top" Width="56" Click="BtnSuma_Click"/>
+        <Button x:Name="BtnResta" Content="RESTA" HorizontalAlignment="Left" Margin="139,261,0,0" VerticalAlignment="Top" Width="51" Click="BtnResta_Click"/>
+        <Button x:Name="BtnMulti" Content="MULTIPLICA" HorizontalAlignment="Left" Margin="199,261,0,0" VerticalAlignment="Top" Width="83" Click="BtnMulti_Click"/>
+        <Button x:Name="BtnDivision" Content="DIVISION" HorizontalAlignment="Left" Margin="290,261,0,0" VerticalAlignment="Top" Width="68" Click="BtnDivision_Click"/>
+        <Label Content="La calculadora mas malota" HorizontalAlignment="Center" Margin="0,29,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
